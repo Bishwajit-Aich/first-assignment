@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.added-background {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 280px;
+    background-image: url(donation9.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    font-weight: 700px;
+    color: black
+}
