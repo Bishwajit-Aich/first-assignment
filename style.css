@@ -2,14 +2,21 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.added-background {
+.beginner-site {
+    padding: 20px;
     background-image: url(hero.png);
     height: 800px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 120px;
+
+}
+
+
+.added-background {
     text-align: center;
-    margin: 150px;
+
 }
 
 .added-background h1 {
@@ -42,9 +49,11 @@ body {
 }
 
 #back {
-    background-color: red;
-    padding: 25px;
-    font-size: 40px;
+    color: red;
+    padding: 15px 18px;
+    border: 1.5px solid salmon;
+    background-color: wheat;
+
 }
 
 .added-background p {
@@ -68,20 +77,38 @@ body {
 }
 
 .middle-point {
+    margin-top: 10px;
+    margin-bottom: 120px;
     text-align: center;
-    padding-top: 100px;
-    font-size: 40px;
-    margin-top: -250px;
-    margin-bottom: 20px;
-
-
 
 }
+
+.middle-point h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.middle-point p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.middle-point input {
+    margin: 25px 35px;
+    padding: 17px 26px;
+    text-transform: capitalize;
+}
+
+
 
 .fix {
     display: flex;
     justify-content: center;
-    margin: 150px;
+    padding: 20px;
 }
 
 #backgroung {
@@ -103,20 +130,95 @@ body {
     background-position: 100px;
 }
 
-.fix h2 {
-    font-size: 40px;
-    margin-right: 10%;
+.second-section {
+    margin-top: 10px;
+    margin-bottom: 120px;
 
+}
+
+.second-title h2 {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.second-title p {
+
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.Money-Perpose {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.donate-title h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.donate-title p {
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.Money-button input {
+    margin: 25px 35px;
+    padding: 17px 25px;
+    text-transform: capitalize;
+}
+
+.Money-button {
+    text-align: center;
+}
+
+
+
+.fix h1 {
+    font-size: 35px;
+    padding: 20px;
     color: black;
 
 }
 
 .again-button {
     text-decoration: none;
-    padding-left: 750px;
-    font-weight: 900;
-    font-size: xx-large;
+}
 
+.btn {
+    text-align: center;
+}
+
+.input-button {
+    text-align: center;
+}
+
+.input-button input {
+    margin: 25px 35px;
+    padding: 17px 26px;
+    text-transform: capitalize;
+
+}
+
+.btn button {
+    padding: 15px 28px;
+    margin: 20px 35px;
+    background-color: tomato;
+    color: white;
+    font-weight: 900;
+    border: 0.5px solid tomato;
+    border-radius: 10px;
 }
 
 .middle {
@@ -133,14 +235,17 @@ body {
     font-weight: 100;
 }
 
-
-
 .donate-plan {
     text-align: center;
     font-weight: 700;
     font-style: bold;
     font-size: 25px;
     margin: 150px;
+    padding: 18px;
+}
+
+.fix p {
+    padding: 20px;
 }
 
 .updates {
@@ -165,28 +270,34 @@ body {
 }
 
 .box {
+    padding: 50px;
+
+
+}
+
+.input-email {
     text-align: center;
-    display: flex;
-    padding-left: 400px;
-    padding-right: 100px;
-    margin: 150px;
 }
 
-.box input {
-    width: 300px;
-    background-color: rgb(46, 44, 44);
-    font-weight: 900;
-    height: 50px;
+
+.input-email input {
+    background-color: salmon;
+    color: black;
+    width: 30%;
+    height: 40px;
     border-radius: 10px;
-    color: rgb(25, 31, 19);
+    text-align: center;
+
 }
 
-.box button {
-    width: 300px;
+.input-email button {
+    width: 15%;
     background-color: brown;
     font-weight: 900;
-    height: 50px;
+    height: 47px;
     border-radius: 10px;
+
+
 
 }
 
