@@ -3,15 +3,27 @@ body {
 }
 
 .added-background {
+
+    padding-top: 280px;
     text-align: center;
     font-size: xx-large;
-    padding-top: 280px;
     background-image: url(donation9.jpg);
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-weight: 900px;
+    color: black;
+}
+
+.added-background h1 {
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.remove-blank {
     text-decoration: none;
-    font-weight: 700px;
-    color: black
+    bottom: 10px 40px;
 }
