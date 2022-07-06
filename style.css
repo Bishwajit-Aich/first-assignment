@@ -3,27 +3,114 @@ body {
 }
 
 .added-background {
-
-    padding-top: 280px;
-    text-align: center;
-    font-size: xx-large;
-    background-image: url(donation9.jpg);
-    height: 500px;
+    background-image: url(hero.png);
+    height: 700px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-weight: 900px;
-    color: black;
+    text-align: center;
 }
 
 .added-background h1 {
     font-size: 40px;
     display: inline-block;
-    text-align: center;
     text-transform: capitalize;
+    padding-top: 120px;
+    font-weight: 900;
+    color: black;
+}
+
+#back {
+    background-color: red;
+    padding: 25px;
+}
+
+.added-background p {
+    padding-top: 100px;
+    font-size: 40px;
+
+    text-transform: capitalize;
+
+    font-weight: 600;
+    color: black;
+
+
+
 }
 
 .remove-blank {
     text-decoration: none;
-    bottom: 10px 40px;
+    color: red;
+    padding: 10px 40px;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.middle-point {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.fix {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.fix h3 {
+    font-size: 40px;
+    margin-left: 6%;
+    border: 8px solid rgb(167, 11, 11);
+}
+
+.again-button {
+    text-decoration: none;
+    padding-left: 750px;
+    font-weight: 900;
+    font-size: xx-large;
+
+}
+
+.middle {
+    text-align: center;
+    font-weight: 700px;
+    background-color: rgb(92, 92, 155);
+    color: white;
+    background-size: 500px;
+}
+
+.simple-line {
+    text-align: center;
+    font-weight: 100;
+}
+
+
+
+.donate-plan {
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 25px;
+}
+
+.updates {
+    text-align: center;
+    color: rgb(255, 102, 0);
+    background-color: black;
+}
+
+.box {
+    text-align: center;
+
+}
+
+.box input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+
 }
