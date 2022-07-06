@@ -4,11 +4,12 @@ body {
 
 .added-background {
     background-image: url(hero.png);
-    height: 700px;
+    height: 800px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
+    margin: 150px;
 }
 
 .added-background h1 {
@@ -17,7 +18,23 @@ body {
     text-transform: capitalize;
     padding-top: 120px;
     font-weight: 900;
-    color: black;
+    color: rgb(235, 231, 231);
+}
+
+#side-being {
+    padding: 25px;
+}
+
+#sidewise {
+    padding: 25px;
+}
+
+#none {
+    padding: 25px;
+}
+
+#side {
+    padding: 25px;
 }
 
 #back {
@@ -26,44 +43,47 @@ body {
 }
 
 .added-background p {
-    padding-top: 100px;
+    padding-bottom: 200px;
     font-size: 40px;
-
     text-transform: capitalize;
-
     font-weight: 600;
-    color: black;
-
-
-
+    color: rgb(231, 224, 224);
 }
 
 .remove-blank {
     text-decoration: none;
-    color: red;
-    padding: 10px 40px;
-    background-color: black;
-    border-radius: 5px;
+    color: rgb(63, 57, 57);
+    padding: 20px 60px;
+    background-color: orange;
+    border-radius: 10px;
     text-align: center;
+    font-weight: 900;
+
 }
 
 .middle-point {
     text-align: center;
     padding-top: 100px;
     font-size: 40px;
+    margin-top: -30px;
+    margin-bottom: 50px;
 }
 
 .fix {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    margin: 150px;
+
+
 
 }
 
-.fix h3 {
+.fix h2 {
     font-size: 40px;
-    margin-left: 6%;
-    border: 8px solid rgb(167, 11, 11);
+    margin-right: 10%;
+    background-color: white;
+    color: black;
+
 }
 
 .again-button {
@@ -94,6 +114,7 @@ body {
     font-weight: 700;
     font-style: bold;
     font-size: 25px;
+    margin: 150px;
 }
 
 .updates {
