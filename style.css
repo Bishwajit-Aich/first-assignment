@@ -151,6 +151,19 @@ body {
     margin: 100px;
 }
 
+.added-paragraph {
+    display: flex;
+    width: 80%;
+    height: 50%;
+    margin: 12%;
+
+}
+
+#change {
+
+    margin-top: 100%;
+}
+
 .box {
     text-align: center;
     display: flex;
